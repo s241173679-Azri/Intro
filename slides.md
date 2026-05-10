@@ -133,3 +133,26 @@ The work done $W$ is positive when the system expands against an external pressu
 
 # Bibliography
 <div id="refs"></div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Analyzing Student Attributes
+Here's an interactive plot showing the relationship between student height and weight, categorized by sex. This visualization helps us identify any patterns or distributions within the dataset.
+
+**Key observations:**
+- Explore how height and weight vary for male and female students.
+- Identify potential outliers.
+:::
+
+::: {.column width="50%"}
+<iframe 
+  data-src="media/plots/height_weight_scatter.html" 
+  width="100%" 
+  height="500px" 
+  style="border:none;" 
+  scrolling="no">
+</iframe>
+:::
+::::
