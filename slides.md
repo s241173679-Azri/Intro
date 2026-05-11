@@ -173,3 +173,43 @@ These statistics provide a summary of the 'PartLength' data for Machine 1 at Tem
 - The standard deviation measures the spread or variability of the part lengths around the mean. A lower standard deviation suggests more consistent part production.
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart for Part Resistance
+This chart displays individual observations of 'Part Resistance' over time for a specific machine and process conditions. The center line represents the average part resistance, while the Upper Control Limit (UCL) and Lower Control Limit (LCL) indicate the boundaries within which the process is considered statistically in control. Points falling outside these limits suggest potential anomalies or shifts in the manufacturing process.
+
+**Analysis:**
+- Observe if any data points exceed the UCL or LCL.
+- Look for trends or patterns that might indicate a process instability.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/xbar_one_chart_resistance.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="100%"}
+### Key Statistics for PartResistance
+These statistics provide a summary of the 'PartResistance' data for Machine 1 at Temperature 303 and Pressure 100.
+
+- **Mean Part Resistance:** 5.1202
+- **Median Part Resistance:** 5.1522
+- **Standard Deviation of Part Resistance:** 0.3499
+
+**Interpretation:**
+- The mean and median indicate the central tendency of the part resistances.
+- The standard deviation measures the spread or variability of the part resistances around the mean. A lower standard deviation suggests more consistent part production.
+:::
+::::
