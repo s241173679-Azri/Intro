@@ -156,3 +156,20 @@ Here's an interactive plot showing the relationship between student height and w
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="100%"}
+### Key Statistics for PartLength
+These statistics provide a summary of the 'PartLength' data for Machine 1 at Temperature 303 and Pressure 100.
+
+- **Mean Part Length:** 49.3168
+- **Median Part Length:** 49.2987
+- **Standard Deviation of Part Length:** 0.5229
+
+**Interpretation:**
+- The mean and median indicate the central tendency of the part lengths.
+- The standard deviation measures the spread or variability of the part lengths around the mean. A lower standard deviation suggests more consistent part production.
+:::
+::::
